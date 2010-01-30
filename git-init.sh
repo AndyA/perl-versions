@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 for v in 5.*; do
   if [ ! -d $v/.git ] ; then
