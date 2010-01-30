@@ -81,7 +81,7 @@ sub git_branch {
     git( checkout => $branch );
   }
   else {
-    git( checkout => 'baseline' );
+    git( checkout => 'toolchain' );
     git( checkout => '-b', $branch );
   }
 }

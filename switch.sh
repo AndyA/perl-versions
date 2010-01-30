@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 branch=$1
 [ -z "$branch" ] && branch="master"
